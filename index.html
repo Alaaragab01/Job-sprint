@@ -25,38 +25,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     
-    <title>Job Sprint - </title>
+    <title>Job Sprint</title>
 
 
 </head>
 
-<??>
+
     <!-- start header -->
     <header id="home">
         <nav class="navbar navbar-light bg-transparent navbar-expand-sm fixed-top">
             <div class="container">
                 <div>
-                    <a class="navbar-brand" href="#"
+                    <a class="navbar-brand" href="#Home"
                         style="color: rgb(223, 241, 241); 
                     margin-left: 70px; font-size: 30px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Jop sprint</a>
                 </div>
             </div>
             <div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTop">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div id="navbarTop" class="collapse-navbar-collapse"
-                    style="margin-right:100px; font-size: 20px; color: aliceblue;">
+                    style="margin-right:200px; font-size: 20px; color: aliceblue;">
                     <ul class="navbar-nav">
                         <li class="nav-item-active" style="padding-right:25px;">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#Home">Home</a>
                         </li>
                         <li class="nav-item" style="padding-right:25px;">
                             <a class="nav-link" href="#about-us">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
+                        <li class="nav-item" style="padding-right:15px;">
+                            <a class="nav-link" href="#Why-us">Why</a>
                         </li>
+                        <li class="nav-item" style="padding-right:25px;"></li>
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item" style="padding-right:25px;"></li>
+                        <a class="nav-link" href="#contact">Contacts</a>
+                    </li>
 
 
                     </ul>
@@ -67,55 +73,52 @@
     </header>
     <!-- end header -->
     <!-- start banner -->
-    <div class="container-fluid m-0 p-0">
+  
+    <div class="container-fluid m-0 p-0" id="Home">
         <div class="card bg-dark text-white first-img" style="max-width: 100%;">
-            <img src="/1.jpg" class="card-img" alt="camera" height="610rem" />
-            <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.3)">
-                <div class="card-img-overlay text-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-md-12"
-                                style="padding-top: 150px; padding-right: 250px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
-                                <h2 class="display-2">تدريبات مهنية مخصصة لك فقط</h2>
-                                <h3 class="display-4" style="padding-top: 30px; font-size: 40px;">تعلم المهارات العملية
-                                    التي تحتاجها للنجاح</h3>
-                            </div>
-                        </div>
-                    </div>
+            <img src="/1.jpg" class="card-img" alt="camera" style="height: 100vh; object-fit: cover;">
+            <div class="card-img-overlay d-flex justify-content-center align-items-center" style="background-color: rgba(0, 0, 0, 0.3);">
+                <div class="text-center" style="font-family: Impact, sans-serif; color: white;">
+                    <h2 class="display-4" style="font-size: 5vw;">تدريبات مهنية مخصصة لك</h2>
+                    <h3 class="mt-3" style="font-size: 3.5vw;">تعلم المهارات العملية والمهنية التي يحتاجها سوق العمل</h3>
                 </div>
             </div>
         </div>
     </div>
     <!-- end banner -->
-    <!-- start about -->
-    <section class="about" id="about-us">
-        <div class="container">
-            <h2 class="text-center"
-                style="padding: 20px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 50px;">
-                من نحن</h2>
-            <div class="row about-box">
-                <div class="col-md-6 about-text" style="padding-left: 150px; padding-top: 70px;">
-                    <h5>creative agency in town</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cupiditate veniam cum velit.
-                        Libero ullam illo, perspiciatis eos quos, obcaecati maiores ipsum consectetur perferendis
-                        quibusdam saepe ducimus minus voluptas minima!</p>
-                    <button class="btn btn-info">read more</button>
 
-                </div>
-                <div class="col-md-6" style="padding-left: 70px; padding-bottom: 30px; padding-top: 70px;">
-                    <img src="/WhatsApp Image 2024-09-21 at 15.00.01_0223ff14.jpg" width="350px">
-                </div>
+<!-- start about -->
+<section class="about" id="about-us">
+    <div class="container">
+        <h2 class="text-center"
+            style="padding: 20px; font-family: Impact, sans-serif; font-size: 40px;">
+            من نحن
+        </h2>
+        <div class="row about-box align-items-center">
+            <!-- Text Section -->
+            <div class="col-md-6 about-text" style="padding-top: 20px; text-align: end;">
+                <h5>من أجل المستقبل</h5>
+                <p>
+                    مبادرة متخصصة في تطوير وتأهيل خريجي كلية تجارة لسوق العمل. نهدف إلى سد الفجوة
+                    بين التعليم الأكاديمي ومتطلبات سوق العمل من خلال تقديم برامج تدريبية مهنية متكاملة ومتطورة.
+                </p>
+                <button class="btn btn-info">read more</button>
+            </div>
+            <!-- Image Section -->
+            <div class="col-md-6 text-center">
+                <img src="/WhatsApp Image 2024-09-21 at 15.00.01_0223ff14.jpg" class="img-fluid" alt="about-image" style="max-width: 100%; height: auto;">
             </div>
         </div>
-    </section>
-    <!-- end about -->
+    </div>
+</section>
+<!-- end about -->
     <!-- start why us -->
     <section class="use" id="why-us">
         <div class="container-fluid">
-            <h2 class="text-center why">
+            <h2 class="text-center why" id="Why-us">
                 ؟ <span
                     style="color: rgb(54, 47, 200); font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Job
-                    Sprints</span> لماذا</h2>
+                    Sprint</span> لماذا</h2>
             <div class="row us">
                 <div class="col-sm-4 us">
                     <h3 class="text-center service-text">استشارات مهنية
@@ -124,8 +127,8 @@
                         مجانًا</p>
                 </div>
                 <div class="col-sm-4 us">
-                    <h3 class="text-center service-text">كورسات مفصلة لاحتياجك </h3>
-                    <p class="service-paragraph">سيقوم المدرب ببناء كورس لاحتياجك ولتخصصك
+                    <h3 class="text-center service-text">تدريبات مفصلة لاحتياجك </h3>
+                    <p class="service-paragraph">سيقوم المدرب ببناء تدريب لاحتياجك ولتخصصك
 
                     </p>
                 </div>
@@ -134,12 +137,12 @@
                     <p class="service-paragraph">نؤهلك في تخصصك بشكل موسع لتبدأ العمل في شركات دولية </p>
                 </div>
                 <div class="col-sm-4 us">
-                    <h3 class="text-center service-text">دراسة تفصيلية</h3>
-                    <p class="service-paragraph">تدرس أدق التفاصيل وكل الجديد في القسم الخاص بك </p>
+                    <h3 class="text-center service-text">تدريبات تفصيلية</h3>
+                    <p class="service-paragraph">تدريب علي أدق التفاصيل في القسم الخاص بك بشكل مهني وحديث</p>
                 </div>
                 <div class="col-sm-4 us">
                     <h3 class="text-center service-text">مواعيد مرنة </h3>
-                    <p class="service-paragraph">يمكن حجز المواعيد حسب جدولك الشخصي صباحًا أو ليلًا
+                    <p class="service-paragraph">يمكن حجز المواعيد حسب جدولك الشخصي صباحًا أو مساءًا
                     </p>
                 </div>
                 <div class="col-sm-4 us">
@@ -174,89 +177,80 @@
 
 
     <!-- start Employment Forum -->
-    <section class="forum">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 empimg">
-                    <img src="/ملتقى.jpg" alt="employment forum"
-                        style="height: 500px; padding-top: 70px; padding-left: 70px;" class="rounded-circle">
-                </div>
-                <div class="col-sm-12 col-md-6 text">
-                    <h1
-                        style="font-size: 40px; font-weight: bolder; padding-bottom: 20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-                        ملتقى توظيفي خاص</h1>
-                    <p style="font-size: 20px;">تمنح الشركة متخرجيها لحضور ملتقى توظيفي خاص بكلية التجارة وأقسامها
-                        مجانًأ فور انتهائك من دراسة الكورس.</p>
-                    <ul style="font-size: 30px;"> :طريقة دخول الملتقى</ul>
-                    <b style="font-size: 20px;">التسجيل في أحد الكورسات الموجودة على الصفحة-</b><br>
-                    <b style="font-size: 20px;">اختار احد الدورات او الدبلومات-</b><br>
-                    <b style="font-size: 20px;">ذاكر دروس الدورة وانتهي منها-</b><br>
-                    <b style="font-size: 20px;">بمجرد الانتهاء من دروس الكورس يتم تسجيلك والاتصال بك فور عمل
-                        الملتقى-</b>
+<!-- start forum section -->
+<section class="forum">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-sm-12 col-md-6 text-center">
+                <img src="/ملتقى (2).jpg" alt="employment forum" class="rounded-circle img-fluid" style="max-width: 100%; height: auto; padding-top: 70px;">
+            </div>
+            <!-- Text Section -->
+            <div class="col-sm-12 col-md-6 text">
+                <p style="font-size: 1.50rem; padding-bottom: 20px; font-weight: bolder;">ألست تريد محاسب وإداري ناجح وذو خبرة عملية؟</p>
 
-
-                </div>
+                <h1 style="font-size: 2.5rem; font-weight: bolder; padding-bottom: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    ملتقى توظيفي خاص
+                </h1>
+                <p style="font-size: 1.25rem;">تمنح الشركه متخرجينها لحضور ملفتي توظيفي للشركات وذلك فور
+                     الانتهاء من التدريب يتم فيها دعوه واستقبال كل الشركات التي تحتاج الي هذه الوظايف ويعرض الخريج السيرة الذاتية الخاصه به للشركه</p>
+                <ul style="font-size: 1.5rem; font-weight: bold;">:طريقه الدعوه في الملتقي بالنسبة للخريج </ul>
+                <b style="font-size: 1.25rem;">التسجيل في أحد التدريبات المعروضه علي الموقع -</b><br>
+                <b style="font-size: 1.25rem;">إجتياز التدريب  والانتهاء منه بنسبة لا تقل عن ٩٠٪؜-</b><br>
+                <b style="font-size: 1.25rem;">ذاكر دروس الدورة وانتهي منها-</b><br>
+                <b style="font-size: 1.25rem;">بمجرد الانتهاء من التدريب يتم تسجيلك في فورم الملتقي التي سوف تعرض قبل الانتهاء من 
+                    التدريب والاتصال بك فور الانتهاء من التدريب</b>
             </div>
         </div>
+    </div>
+</section>
+<!-- end forum section -->
+
+<section class="learn1">
+    <div class="container services-first">
+        <h1 class="text-center service-text hlearn">ما ستتعلمه </h1>
+        <h5 class="text-center service-text-small h5learn">سنعلمك الأشياءالتي تهم كل خريج يريد ان يعمل في الشركات الدولية</h5>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4 learn">
+            <img src="/odoo (2).jpg" class="img-fluid img rounded-circle" alt="1" >
+            <h3 class="text-center service-text">Odoo System</h3>
+            <p class="service-paragraph">ستتعلم كيفية التعامل مع نظام وطلب سلفة عليه</p>
+        </div>
+        <div class="col-sm-4 learn">
+            <img src="/اله حاسبة.jpg" class="img-fluid img rounded-circle" alt="2">
+            <h3 class="text-center service-text">الدفاتر المحاسبية</h3>
+            <p class="service-paragraph">ستتعلم ⁠كيفية العمل بالدفاتر المحاسبية بشكل عملي وفعلي باستخدام مستندات شركة فعلية</p>
+        </div>
+        <div class="col-sm-4 learn">
+            <img src="/ملتقى.jpg" class="img-fluid img  rounded-circle" alt="3">
+            <h3 class="text-center service-text">إدارة الاجتماعات</h3>
+            <p class="service-paragraph"> ستتعلم إدارة الاجتماعات من حيث وضع اجنده اجتماع وصياغه مخرجات الاجتماع 
+            </p>
+        </div>
+        <div class="col-sm-4 learn">
+            <img src="/محاسبة2.jpg" class="img-fluid img  rounded-circle" alt="3"  style="   height: 100%; width: 100%;">
+            <h3 class="text-center service-text">قيود يومية أمريكية</h3>
+            <p class="service-paragraph"> سوف تتعلم كيفية إنشاء إكسيل قيود اليومية الأمريكية بشكل كامل
+            </p>
+        </div>
+        <div class="col-sm-4 learn">
+            <img src="/محاسبة.jpg" class="img-fluid img  rounded-circle" alt="3"  style="   height: 100%; width: 100%;">
+            <h3 class="text-center service-text">تقارير فنية وإدارية</h3>
+            <p class="service-paragraph"> ستتعلم كيفية عمل تقارير فنية وإدارية بشكل إحترافي
+            </p>
+        </div>
+        <div class="col-sm-4 learn">
+            <img src="/محاسبة1.jpg" class="img-fluid img  rounded-circle" alt="3" style="   height: 100%; width: 100%;">
+            <h3 class="text-center service-text">أرشفة الملفات الإدارية</h3>
+            <p class="service-paragraph">  كيفية عمل أرشيف كامل للملفات الإدارية بنظام التكويد
+            </p>
+        </div>
+    </div>
     </section>
-
-    <section class="learn1">
-        <div class="container services-first">
-            <h1 class="text-center service-text hlearn">ما ستتعلمه </h1>
-            <h5 class="text-center service-text-small h5learn">سنعلمك الأشياءالتي تهم كل خريج يريد ان يعمل في الشركات الدولية</h5>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-4 learn">
-                <img src="/odoo (2).jpg" class="img-fluid img rounded-circle" alt="1">
-                <h3 class="text-center service-text">Odoo System</h3>
-                <p class="service-paragraph">ستتعلم كيفية التعامل مع نظام وطلب سلفة عليه</p>
-            </div>
-            <div class="col-sm-4 learn">
-                <img src="/3.jpg" class="img-fluid img rounded-circle" alt="2">
-                <h3 class="text-center service-text">الدفاتر المحاسبية</h3>
-                <p class="service-paragraph">ستتعلم ⁠كيفية العمل بالدفاتر المحاسبية بشكل عملي وفعلي باستخدام مستندات شركة فعلية</p>
-            </div>
-            <div class="col-sm-4 learn">
-                <img src="/meeting.jpg" class="img-fluid img  rounded-circle" alt="3">
-                <h3 class="text-center service-text">إدارة الاجتماعات</h3>
-                <p class="service-paragraph"> ستتعلم إدارة الاجتماعات من حيث وضع اجنده اجتماع وصياغه مخرجات الاجتماع 
-                </p>
-            </div>
-            <div class="col-sm-4 learn">
-                <img src="/meeting.jpg" class="img-fluid img  rounded-circle" alt="3">
-                <h3 class="text-center service-text">إدارة الاجتماعات</h3>
-                <p class="service-paragraph"> ستتعلم إدارة الاجتماعات من حيث وضع اجنده اجتماع وصياغه مخرجات الاجتماع 
-                </p>
-            </div>
-            <div class="col-sm-4 learn">
-                <img src="/meeting.jpg" class="img-fluid img  rounded-circle" alt="3">
-                <h3 class="text-center service-text">إدارة الاجتماعات</h3>
-                <p class="service-paragraph"> ستتعلم إدارة الاجتماعات من حيث وضع اجنده اجتماع وصياغه مخرجات الاجتماع 
-                </p>
-            </div>
-            <div class="col-sm-4 learn">
-                <img src="/meeting.jpg" class="img-fluid img  rounded-circle" alt="3">
-                <h3 class="text-center service-text">إدارة الاجتماعات</h3>
-                <p class="service-paragraph"> ستتعلم إدارة الاجتماعات من حيث وضع اجنده اجتماع وصياغه مخرجات الاجتماع 
-                </p>
-            </div>
-        </div>
-        </section>
         <!-- end learn section -->
 <!-- start pricing list -->
-
-<!-- <div class="columns">
-    <ul class="price">
-      <li class="header">Basic</li>
-      <li class="grey">$ 9.99 / year</li>
-      <li>10GB Storage</li>
-      <li>10 Emails</li>
-      <li>10 Domains</li>
-      <li>1GB Bandwidth</li>
-      <li class="grey"><a href="#" class="button">Sign Up</a></li>
-    </ul> -->
-
     <style>
         * {
           box-sizing: border-box;
@@ -265,6 +259,7 @@
         .columns {
           width: 33.3%;
           padding: 8px;
+          padding-left: 20px;
           padding-right: 20px;
 
         }
@@ -317,7 +312,7 @@
         }
     
         </style>
-        <section style="padding-bottom: 50px;">
+        <section style="padding-bottom: 50px;" id="pricing">
             <div class="row">
 <div class="col-sm-6">
     <ul class="price">
@@ -341,83 +336,40 @@
         
 
 
-            <!--start contact-->
-    <section class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h3>Let's Get In Touch</h3>
-                    <p>We Are Open All Time</p>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <i class="fa fa-phone"></i>
-
-                        </div>
-                        <div class="col-md-10">
-                            <p>تواصل معنا على واتساب</p>
-                            <p>01146400042 <br></p>
-
-                            <img src="/qr.jpg" style="width: 100px; height: 100;">
-                        </div>
+ <!--start contact-->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Contact Info Section -->
+            <div class="col-md-8 text-center">
+                <h3>Let's Get In Touch</h3>
+                <p>We Are Open All Time</p>
+                
+                <!-- WhatsApp Section -->
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-12">
+                        <!-- WhatsApp Icon and Text -->
+                        <i class="fa-brands fa-whatsapp fa-3x" style="color: #25D366;"></i>
+                        <p class="mt-3" style="font-size: 1.2rem;">تواصل معنا على واتساب</p>
+                        <p style="font-size: 1.2rem;">01146400042</p>
                     </div>
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <i class="fa-solid fa-qrcode" style="color: aliceblue;"></i>
-                        </div>
-                        <div class="col-md-10">
-                        </div>
-                    </div>
-
                 </div>
 
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <input type="text" class="form-control" name="name" placeholder="Full Name">
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <input type="email" class="form-control" name="email" placeholder="Email Address">
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <textarea class="form-control" name="message" rows="6" placeholder="Enter Your Message"></textarea>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <button class="btn btn-primary" type="button">Send Message</button>
-                        </div>
+                <!-- WhatsApp QR Code Section -->
+                <div class="row justify-content-center">
+                    <div class="col-md-12">
+                        <p>Scan the QR code to chat with us on WhatsApp</p>
+                        <img src="/qr.jpg" style="width: 150px; height: 150px; border-radius: 10px;">
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<!--end contact-->
+>
 
-    </section>
-    <!--end contact-->
 
-    <!--start footer-->
-    <footer>
-        <div class="container">
-            <!-- <p>Designed By - <a href="#">UN-Woman</a></p> -->
-            <!-- <div class="text-right sections">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Blogs</a>
-                <a href="#">Contact</a> -->
-
-            </div>
-
-        </div>
-    </footer>
-    <!--end footer-->
 
     <!--scripts-->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
