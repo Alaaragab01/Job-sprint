@@ -1,0 +1,116 @@
+.about {
+    background-color: rgb(238, 246, 246);
+    padding-bottom: 70px;
+
+}
+
+
+.about-box {
+    
+    border: 1px solid rgb(25, 25, 29);
+    background-color: rgb(250, 251, 252);
+}
+
+/* .us {
+    border: 1px solid rgb(25, 25, 29);
+    background-color: rgb(250, 251, 252);
+    box-sizing:content-box;
+    padding: 0;
+    text-align: center;
+
+ } */
+  .us {
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    padding-bottom: 50px;
+  }
+  .why {
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .services {
+     background-color: rgb(187, 189, 193); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+  } 
+  .sections {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+  .img1 {
+    border: 2px solid rgb(162, 192, 207);
+    border-radius: 25px;
+    width: 500px;
+    height: 300px;
+  
+    }
+    .img2 {
+        border: 2px solid rgb(78, 77, 77);
+        border-radius: 25px;
+        width: 500px;
+        height: 300px;
+    }
+
+
+    .forum {
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 50px;
+    }
+
+ 
+  .text {
+    text-align:end;
+    padding-right: 100px;
+    padding-top: 100px;
+
+}
+
+
+.learn {
+  padding: 40px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  padding-bottom: 100px;
+}
+.learn .img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+  align-items: center;
+  padding-left: 70px;
+}
+
+.learn1 .hlearn {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.learn1 {
+  background-color: rgb(255, 255, 255);
+}
+.learn .h5learn {
+  padding-bottom: 70px;
+
+}
+
+.learn .service-paragraph {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  padding-left: 40px;
+
+
+}
+ .contact {
+  background-color: rgb(80, 74, 74);
+  color: aliceblue;
+  padding: 50px;
+ }
+
